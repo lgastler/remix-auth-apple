@@ -1,6 +1,10 @@
 {
-  "name": "remix-auth-strategy-template",
+  "name": "remix-auth-apple",
   "version": "0.0.0",
+  "author": {
+    "name": "lgastler",
+    "email": "hi@lgastler.de"
+  },
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "scripts": {
@@ -52,6 +56,7 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "remix-auth": "^3.0.0"
+    "remix-auth": "^3.0.0",
+    "remix-auth-oauth2": "^1.1.0"
   }
 }
